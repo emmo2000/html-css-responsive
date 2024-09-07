@@ -1,0 +1,153 @@
+/* Color Theme Swatches in Hex
+.Lightning-McQueen-(Cars)-1-hex { color: #F08C2F; }
+.Lightning-McQueen-(Cars)-2-hex { color: #F2F2F2; }
+.Lightning-McQueen-(Cars)-3-hex { color: #F2D785; }
+.Lightning-McQueen-(Cars)-4-hex { color: #F23A29; }
+.Lightning-McQueen-(Cars)-5-hex { color: #A62424; }
+
+   */
+  
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .wrapper {
+    display: grid;
+    border-style: solid;
+    border-color: red;
+    background-color: #A62424;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100vw;
+    height: 100vh;
+  }
+  .one {
+    border-style: solid;
+    border-color: blue;
+    background-color: #F2D785;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .two {
+    border-style: solid;
+    border-color: yellow;
+    background-color: #F2D785;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+  .three {
+    border-style: solid;
+    border-color: violet;
+    background-color: #F2D785;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+  .four {
+    border-style: solid;
+    border-color: aqua;
+    background-color: #F2D785;
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  }
+
+  .logo-wrapper {
+    display: grid;
+    background-color: #8c8c8c4a;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #logo-1{
+    background-color: rgba(240, 248, 255, 0.161);
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  #logo-95{
+    background-color: rgba(240, 248, 255, 0.161);
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  #logo-1 img{
+    width: calc(20vw - 10px);
+  }
+
+  #logo-95 img{
+    width: calc(20vw - 10px);
+  }
+  
+
+  
+  
+
+  @media only screen and (max-width: 600px) {
+    .wrapper {
+        display: grid;
+        border-style: solid;
+        border-color: red;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+      .one {
+        border-style: solid;
+        border-color: blue;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+      .two {
+        border-style: solid;
+        border-color: yellow;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+      .three {
+        border-style: solid;
+        border-color: violet;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 5;
+      }
+      .four {
+        border-style: solid;
+        border-color: aqua;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 6;
+      }
+      #logo-1{
+        visibility: hidden;
+      }
+    
+      #logo-95 img{
+        width: calc(80vw - 10px);
+      }
+      .logo-wrapper {
+        width: 100vw;
+        text-align: center;      }
+  }
+
+ 
