@@ -104,12 +104,14 @@
 }
 
 #fun-facts{
+    color: #ffffff;
     background-color: #F08C2F;
     margin: 1em;
     padding: 2em   ;
     border-radius: 25px;
-    border-color: black;
-    border: solid 5px;
+    border: solid 5px black;
+    box-shadow: 5px 5px 20px 15px rgba(0, 0, 0, 0.281);
+
 }
 
 .profile-image{
