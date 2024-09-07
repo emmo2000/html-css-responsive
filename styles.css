@@ -17,7 +17,7 @@
     border-style: solid;
     border-color: red;
     background-color: #A62424;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     width: 100vw;
     height: 100vh;
@@ -27,7 +27,7 @@
     border-color: blue;
     background-color: #F2D785;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 1;
   }
@@ -45,7 +45,7 @@
     border-color: violet;
     background-color: #F2D785;
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 5;
   }
@@ -55,7 +55,7 @@
     background-color: #F2D785;
     
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 5;
   }
@@ -90,6 +90,39 @@
   #logo-95 img{
     width: calc(20vw - 10px);
   }
+
+#content-grid{
+  color: #A62424;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+#main-description{
+  padding: 2em;
+}
+
+#fun-facts{
+    background-color: #F08C2F;
+    margin: 1em;
+    padding: 2em   ;
+    border-radius: 25px;
+    border-color: black;
+    border: solid 5px;
+}
+
+
+
+h1, h2, a{
+  text-align: center;
+}
+
+p, a{
+  font-size: 24px;
+}
+
+ol{
+  font-size: 24px;
+}
   
 
   
@@ -148,6 +181,11 @@
       .logo-wrapper {
         width: 100vw;
         text-align: center;      }
+
+        #content-grid{
+          grid-template-columns: 1fr;
+        
+        }
   }
 
  
