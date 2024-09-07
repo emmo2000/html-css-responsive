@@ -110,6 +110,18 @@
     border: solid 5px;
 }
 
+.profile-image{
+  background-color: white;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 25px;
+  border: black;
+  border-style:ridge;
+}
+
 
 
 h1, h2, a{

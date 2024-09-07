@@ -1,0 +1,61 @@
+.screen{
+    background-color: red;
+    height: 100vh;  
+}
+img{
+    height: 5em;
+    text-align: left;
+    width: 15em;
+    
+}
+
+.content{
+    padding-top: 10vh;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.button{
+    background-color: burlywood;
+    padding: 1em;
+    border: solid rgb(255, 255, 255) 5px;
+    
+    color: white;
+    font-size: 24px;
+}
+
+.button:hover{
+    background-color: rgb(143, 118, 86);
+    padding: 1em;
+    border: solid rgb(255, 255, 255) 5px;
+    
+    color: white;
+    font-size: 24px;
+}
+
+#car-container{
+    animation: car ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    height: 100vh; 
+
+}
+@keyframes car {
+    0% {
+        transform: translateX(0%) translateY(0%) rotate(0deg);
+        
+    }
+    25% {
+        transform: translateX(calc(100% - 15em)) translateY(0%);
+    }
+    50% {
+        transform: translateX(calc(100% - 15em)) translateY(calc(100% - 10em));
+    }
+    75% {
+        transform: translateX(0%) translateY(calc(100% - 10em));
+    }
+    100% {
+        transform: translateX(0%) translateY(0%);
+    }    
+}
+
